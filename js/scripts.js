@@ -24,21 +24,18 @@ for (var i = 1; i <= inputValue; i++){
   
   if (i % 3 === 0 && i % 5 === 0) {
     fizzBuzz.push(i);
-    console.log('fizzbuzz',fizzBuzz);
     var newFizzBuzz = document.createElement('LI');
     newFizzBuzz.textContent = i ;
     answerFizzBuzz.appendChild(newFizzBuzz);
   }
   else if (i % 3 === 0){
     fizz.push(i);
-    console.log('fizz', fizz);
     var newFizz = document.createElement('LI');
     newFizz.textContent = i;
     answerFizz.appendChild(newFizz);
   }
   else if (i % 5 === 0){
     buzz.push(i);
-    console.log('buzz',buzz);
     var newBuzz = document.createElement('LI');
     newBuzz.textContent = i ;
     answerBuzz.appendChild(newBuzz);
