@@ -44,5 +44,5 @@ for (var i = 1; i <= inputValue; i++){
 answerFizzlar.textContent = `Fizzlar ${fizz.length} ta`;
 answerBuzzlar.textContent = `Buzzlar ${buzz.length} ta`;
 answerFizzBuzzlar.textContent = `FizzBuzzlar ${fizzBuzz.length} ta`;
-
+input.value= '';
 });
