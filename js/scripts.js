@@ -43,23 +43,9 @@ for (var i = 1; i <= inputValue; i++){
     newBuzz.textContent = i ;
     answerBuzz.appendChild(newBuzz);
   }
-  else{
-    console.log(i);
-  }
 }
-console.log(fizzBuzz,' ', fizz,' ', buzz);
 answerFizzlar.textContent = `Fizzlar ${fizz.length} ta`;
 answerBuzzlar.textContent = `Buzzlar ${buzz.length} ta`;
 answerFizzBuzzlar.textContent = `FizzBuzzlar ${fizzBuzz.length} ta`;
 
 });
-
-// var gmCars = [];
-// gmCars.push('Nexia', 'Tico', 'Damas');
-// gmCars.push('Matiz');
-// gmCars.push('Spark', 'Nexia 2', 'Nexia 3', 'Maluba', 'Lacetti', 'Kabolat', 'Gentra', 'Trailblazer', 'Equinox', 'Captiva', 'Epica', 'Tracker', 'Orlando');
-
-
-// for (var i = 0; i < gmCars.length; i++){
-//   console.log(gmCars[i]);
-// }
